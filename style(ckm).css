@@ -1,0 +1,57 @@
+
+#ttl{
+    animation:changeColor linear 1s infinite;
+   }
+@keyframes changeColor{
+       0%{color:red};
+       25%{color:yellow};
+       50%{color:blue};
+       75%{color: hotpink};
+       100%{color:indigo};
+}
+ul li a:hover{
+    border-bottom:2px solid red;
+
+}
+p{
+ text-align:justify;   
+}
+#tfd{
+    box-shadow:5px 5px 5px 5px  #E8EBF8;
+    transition:transform 1s;
+}
+#tfd:hover{
+    transform: scale(110%);
+}
+
+.checked{
+    color: orange;
+}
+.footer{
+    width:100%;
+   color:white;
+    background-color: black;
+}
+.footer-div{
+    list-style:none ;
+}
+.footer-l{
+    text-decoration:none;
+}
+#btn{
+    height:35px;
+    background: red;
+    color:white;
+    text-decoration:none;
+    border:none;
+    border-radius: 10px;
+    box-shadow:5px 5px 3px 3px #808183;
+}
+#btn:hover{
+    background-color: black;
+}
+.sp{
+    color: tomato;
+}
+
+

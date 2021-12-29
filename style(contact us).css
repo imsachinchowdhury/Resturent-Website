@@ -1,0 +1,71 @@
+
+
+#ttl{
+    animation:changeColor linear 1s infinite;
+   }
+@keyframes changeColor{
+       0%{color:red};
+       25%{color:yellow};
+       50%{color:blue};
+       75%{color: hotpink};
+       100%{color:indigo};
+}
+ul li a:hover{
+    border-bottom:2px solid red;
+
+}
+p{
+ text-align:justify;   
+}
+#tfd{
+    box-shadow:5px 5px 5px 5px  #E8EBF8;
+    transition:transform 1s;
+}
+#tfd:hover{
+    transform: scale(110%);
+}
+
+.checked{
+    color: orange;
+}
+.footer{
+    width:100%;
+   color:white;
+    background-color: black;
+}
+.footer-div{
+    list-style:none ;
+}
+.footer-l{
+    text-decoration:none;
+}
+#select{
+    width:100%;
+}
+#address{
+    width:100%;
+}
+a{
+    text-decoration:none;
+
+   
+}
+
+#contact-main{
+    width:100%;
+
+    display: flex;
+    justify-content:center;
+
+}
+#contact{
+    width:50%;
+}
+#btn{
+    background-color: blue;
+    border:none;
+
+}
+#btn:hover{
+    background-color: rgb(209, 225, 241);  
+}

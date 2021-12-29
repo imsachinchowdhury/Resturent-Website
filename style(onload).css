@@ -1,0 +1,14 @@
+#loader{
+    display: block;
+    position: absolute;
+    top:27%;
+    left: 44%;
+    transform: translate(-49%, -19%);
+    
+
+}
+#content{
+    display: none;
+    text-align: center;
+
+}
